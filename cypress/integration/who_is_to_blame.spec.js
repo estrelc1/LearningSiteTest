@@ -135,15 +135,15 @@ describe("Finding The Truth", () => {
 
     it('FINAL VERDICT', () => {
         cy.get("h2.page__title").should('include.text', "FINAL VERDICT")
-        cy.get("a.button.button--nav").eq(0).should('include.text', 'WHAT THE RESEARCH SAYS').click({force: true})
+        //cy.get("a.button.button--nav").eq(0).should('include.text', 'WHAT THE RESEARCH SAYS').click({force: true})
         cy.wait(3000)
     })
 
-    it('WHAT THE RESEARCH SAYS', () => {
-        cy.get("h2.page__title").should('include.text', "WHAT THE RESEARCH SAYS")
-        cy.get("i.ti.ti-arrow-left").click({force: true})
-        cy.wait(3000)
-    })
+    // it('WHAT THE RESEARCH SAYS', () => {
+    //     cy.get("h2.page__title").should('include.text', "WHAT THE RESEARCH SAYS")
+    //     cy.get("i.ti.ti-arrow-left").click({force: true})
+    //     cy.wait(3000)
+    // })
 
     it('FINAL VERDICT', () => {
         cy.get("h2.page__title").should('include.text', "FINAL VERDICT")
