@@ -1,4 +1,4 @@
-# StepUI Cypress Test
+# Cypress Test
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 [Cypress](https://cypress.io) is JavaScript End to End Testing Framework.
